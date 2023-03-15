@@ -9,7 +9,7 @@ import Handshake from "../public/handshake.png";
 import Web1 from "../public/home.png";
 import Web2 from "../public/formulario-clientes-administrador.png";
 import Web3 from "../public/tabla-cliente.png";
-import Perfil from "../public/perfil.png";
+import Perfil from "../public/perfil-pr2.jpg";
 import { useState } from "react";
 
 export default function Home() {
@@ -122,12 +122,10 @@ export default function Home() {
                 className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Clean and optimize code
+                Clean coding
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-                impedit magnam consequuntur sed eligendi, ratione mollitia
-                perspiciatis voluptates eos dolore nam atque?
+                Looking for the best result when we talk about good coding practices.
               </p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10">
@@ -139,12 +137,10 @@ export default function Home() {
                 className="mx-auto"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Team working and great comunnication
+                Team player and great communication
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-                impedit magnam consequuntur sed eligendi, ratione mollitia
-                perspiciatis voluptates eos dolore nam atque?
+                Good attitude and situational awareness with the ability to communicate ideas in a proper and respectful language.
               </p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10">
@@ -159,9 +155,7 @@ export default function Home() {
                 Adaptative in any situations
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-                impedit magnam consequuntur sed eligendi, ratione mollitia
-                perspiciatis voluptates eos dolore nam atque?
+                Doing always my best when I have to adapt to a new enviroment to get the best result possible.
               </p>
             </div>
           </div>
