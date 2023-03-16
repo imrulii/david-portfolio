@@ -6,7 +6,7 @@ import Devweb from "../public/wep-developer.png";
 import Code from "../public/code.png";
 import Chameleon from "../public/chameleon.png";
 import Handshake from "../public/handshake.png";
-import Web1 from "../public/home.png";
+import Web1 from "../public/Home.png";
 import Web2 from "../public/formulario-clientes-administrador.png";
 import Web3 from "../public/tabla-cliente.png";
 import Perfil from "../public/perfil-pr2.jpg";
