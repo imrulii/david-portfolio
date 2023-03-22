@@ -98,7 +98,7 @@ export default function Home() {
                   discovered many more, so I&apos;m currently working with{" "}
                   <span className="text-teal-500">
                     HTML, CSS, JavaScript, React, Nextjs, Bootstrap, Tailwind,
-                    PHP, MySQL, MongoDB, Node.JS and Express
+                    PHP, MySQL, MongoDB, Node.JS, Express
                   </span>{" "}
                   and <span className="text-teal-500">Access.</span> I am
                   currently looking for a job where I can use the knowledge I
