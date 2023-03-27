@@ -39,7 +39,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
                 href="#"  alt="alt text"
                 target="_blank"
-                rel="noopener noreferrer" download="Resume-Diaz-David"
+                rel="noopener noreferrer" download="resume"
               >
                 Resumen
               </a>
