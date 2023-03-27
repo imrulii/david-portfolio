@@ -37,9 +37,11 @@ export default function Home() {
               </li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
-                href="#"
+                href="../resume.pdf"  alt="alt text"
+                target="_blank"
+                rel="noopener noreferrer" download="Resume-Diaz-David"
               >
-                resumen
+                Resumen
               </a>
             </ul>
           </nav>
