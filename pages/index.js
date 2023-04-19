@@ -107,7 +107,7 @@ export default function Home() {
                     PHP, MySQL, MongoDB, Node.JS, Express
                   </span>{" "}
                   and <span className="text-teal-500">Access.</span> I am
-                  currently looking for a job where I can use the knowledge I
+                  looking for a job where I can use the knowledge I
                   have acquired and developed to create solutions.
                 </p>
               </div>
