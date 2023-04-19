@@ -9,6 +9,8 @@ import Handshake from "../public/handshake.png";
 import Web1 from "../public/home.png";
 import Web2 from "../public/formulario-clientes-administrador.png";
 import Web3 from "../public/tabla-cliente.png";
+import Web4 from "../public/test-index.png";
+import Web5 from "../public/test-addproduct.png";
 import Perfil from "../public/perfil-pr2.jpg";
 import { useState } from "react";
 
@@ -37,9 +39,11 @@ export default function Home() {
               </li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
-                href="#"  alt="alt text"
+                href="#"
+                alt="alt text"
                 target="_blank"
-                rel="noopener noreferrer" download="resume"
+                rel="noopener noreferrer"
+                download="resume"
               >
                 Resumen
               </a>
@@ -127,7 +131,8 @@ export default function Home() {
                 Clean coding
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Looking for the best result when we talk about good coding practices.
+                Looking for the best result when we talk about good coding
+                practices.
               </p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10">
@@ -142,7 +147,8 @@ export default function Home() {
                 Team player and great communication
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Good attitude and situational awareness with the ability to communicate ideas in a proper and respectful language.
+                Good attitude and situational awareness with the ability to
+                communicate ideas in a proper and respectful language.
               </p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10">
@@ -157,7 +163,8 @@ export default function Home() {
                 Adaptative in any situations
               </h3>
               <p className="text-gray-800 dark:text-gray-400">
-                Doing always my best when I have to adapt to a new enviroment to get the best result possible.
+                Doing always my best when I have to adapt to a new enviroment to
+                get the best result possible.
               </p>
             </div>
           </div>
@@ -173,8 +180,11 @@ export default function Home() {
           <div className="py-10">
             <div className="text-center ">
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
-                System web for a car dealership using HTML, CSS, JavaScript, PHP
-                and MySQL
+                System web for a car dealership using{" "}
+                <span className="text-teal-500">
+                  HTML, CSS, JavaScript, PHP{" "}
+                </span>
+                and <span className="text-teal-500">MySQL</span>
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -201,6 +211,48 @@ export default function Home() {
               <div className="basis-1/3 flex-1">
                 <Image
                   src={Web3}
+                  alt="image of example"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="py-10">
+            <div className="text-center ">
+              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
+                System web for a test assignment with required languages such as{" "}
+                <span className="text-teal-500">
+                  HTML, CSS, JavaScript, PHP{" "}
+                </span>
+                and <span className="text-teal-500">MySQL </span>.{" "}
+                <span
+                className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
+                  onClick={() =>
+                    (window.location.href =
+                      "https://sscandiwwebtest.000webhostapp.com/index.php")
+                  }
+                >
+                  Click Here
+                </span>
+              </h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web4}
+                  alt="image of example"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>{" "}
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web5}
                   alt="image of example"
                   className="rounded-lg object-cover"
                   width={"100%"}
