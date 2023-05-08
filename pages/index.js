@@ -11,6 +11,10 @@ import Web2 from "../public/formulario-clientes-administrador.png";
 import Web3 from "../public/tabla-cliente.png";
 import Web4 from "../public/test-index.png";
 import Web5 from "../public/test-addproduct.png";
+import Web6 from "../public/hotel-1.png";
+import Web7 from "../public/hotel-2.png";
+import Web8 from "../public/hotel-3.png";
+import Web9 from "../public/hotel-4.png";
 import Perfil from "../public/perfil-pr2.jpg";
 import { useState } from "react";
 
@@ -192,7 +196,7 @@ export default function Home() {
                 <Image
                   src={Web1}
                   alt="image of example"
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -202,7 +206,7 @@ export default function Home() {
                 <Image
                   src={Web2}
                   alt="image of example"
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -212,7 +216,7 @@ export default function Home() {
                 <Image
                   src={Web3}
                   alt="image of example"
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover hover:scale-110 duration-300"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -244,7 +248,7 @@ export default function Home() {
                 <Image
                   src={Web4}
                   alt="image of example"
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
@@ -254,7 +258,60 @@ export default function Home() {
                 <Image
                   src={Web5}
                   alt="image of example"
-                  className="rounded-lg object-cover"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="py-10">
+            <div className="text-center ">
+              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
+                 Full responsive Hotel web site using{" "}
+                <span className="text-teal-500">
+                  React{" "}
+                </span>
+                and <span className="text-teal-500">Taildwind </span>.{" "}
+              </h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web6}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>{" "}
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web7}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web8}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web9}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
