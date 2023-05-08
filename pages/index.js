@@ -273,7 +273,7 @@ export default function Home() {
                 <span className="text-teal-500">
                   React{" "}
                 </span>
-                and <span className="text-teal-500">Taildwind </span>.{" "}
+                and <span className="text-teal-500">Tailwind </span>.{" "}
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
