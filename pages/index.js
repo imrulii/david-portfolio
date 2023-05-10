@@ -328,7 +328,7 @@ export default function Home() {
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
                  Full responsive Petshop web site using{" "}
                 <span className="text-teal-500">
-                  React{" "}
+                  Next.Js{" "}
                 </span>
                 and <span className="text-teal-500">Tailwind </span>.{" "}
               </h3>
