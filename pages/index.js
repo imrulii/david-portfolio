@@ -15,6 +15,10 @@ import Web6 from "../public/hotel-1.png";
 import Web7 from "../public/hotel-2.png";
 import Web8 from "../public/hotel-3.png";
 import Web9 from "../public/hotel-4.png";
+import Web10 from "../public/pet-1.png";
+import Web11 from "../public/pet-2.png";
+import Web12 from "../public/pet-3.png";
+import Web13 from "../public/pet-4.png";
 import Perfil from "../public/perfil-pr2.jpg";
 import { useState } from "react";
 
@@ -310,6 +314,59 @@ export default function Home() {
               <div className="basis-1/3 flex-1">
                 <Image
                   src={Web9}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="py-10">
+            <div className="text-center ">
+              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
+                 Full responsive Petshop web site using{" "}
+                <span className="text-teal-500">
+                  React{" "}
+                </span>
+                and <span className="text-teal-500">Tailwind </span>.{" "}
+              </h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web10}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>{" "}
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web11}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web12}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web13}
                   alt="image of example"
                   className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
