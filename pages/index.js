@@ -193,6 +193,64 @@ export default function Home() {
           <div className="py-10">
             <div className="text-center ">
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
+                Full responsive Travel Agency web site using{" "}
+                <span className="text-teal-500">React</span>.{" "}
+                <span
+                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
+                  onClick={() =>
+                    (window.location.href = "https://travelersgrupomr.com.py")
+                  }
+                >
+                  Click Here
+                </span>
+              </h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web14}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>{" "}
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web15}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web16}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web17}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="py-10">
+            <div className="text-center ">
+              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
                 System web for a car dealership using{" "}
                 <span className="text-teal-500">
                   HTML, CSS, JavaScript, PHP{" "}
@@ -377,64 +435,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-10">
-            <div className="text-center ">
-              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
-                Full responsive Travel Agency web site using{" "}
-                <span className="text-teal-500">React</span>.{" "}
-                <span
-                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
-                  onClick={() =>
-                    (window.location.href = "https://travelersgrupomr.com.py")
-                  }
-                >
-                  Click Here
-                </span>
-              </h3>
-            </div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1">
-                <Image
-                  src={Web14}
-                  alt="image of example"
-                  className="rounded-lg object-cover hover:scale-125 duration-300"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                />
-              </div>{" "}
-              <div className="basis-1/3 flex-1">
-                <Image
-                  src={Web15}
-                  alt="image of example"
-                  className="rounded-lg object-cover hover:scale-125 duration-300"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  src={Web16}
-                  alt="image of example"
-                  className="rounded-lg object-cover hover:scale-125 duration-300"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                />
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  src={Web17}
-                  alt="image of example"
-                  className="rounded-lg object-cover hover:scale-125 duration-300"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                />
-              </div>
-            </div>
-          </div>
+          
         </section>
       </main>
     </div>
