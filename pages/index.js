@@ -19,8 +19,13 @@ import Web10 from "../public/pet-1.png";
 import Web11 from "../public/pet-2.png";
 import Web12 from "../public/pet-3.png";
 import Web13 from "../public/pet-4.png";
+import Web14 from "../public/travel.png";
+import Web15 from "../public/travel2.png";
+import Web16 from "../public/travel3.png";
+import Web17 from "../public/travel4.png";
 import Perfil from "../public/perfil-pr2.jpg";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -47,13 +52,13 @@ export default function Home() {
               </li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
-                href="#"
-                alt="alt text"
-                target="_blank"
+                href="../public/resume.pdf"
+                alt=""
                 rel="noopener noreferrer"
-                download="resume"
+                download="resume.pdf"
+                target="_blank"
               >
-                Resumen
+                Resume
               </a>
             </ul>
           </nav>
@@ -115,8 +120,8 @@ export default function Home() {
                     PHP, MySQL, MongoDB, Node.JS, Express
                   </span>{" "}
                   and <span className="text-teal-500">Access.</span> I am
-                  looking for a job where I can use the knowledge I
-                  have acquired and developed to create solutions.
+                  looking for a job where I can use the knowledge I have
+                  acquired and developed to create solutions.
                 </p>
               </div>
             </div>
@@ -237,7 +242,7 @@ export default function Home() {
                 </span>
                 and <span className="text-teal-500">MySQL </span>.{" "}
                 <span
-                className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
+                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
                   onClick={() =>
                     (window.location.href =
                       "https://sscandiwwebtest.000webhostapp.com/index.php")
@@ -273,10 +278,8 @@ export default function Home() {
           <div className="py-10">
             <div className="text-center ">
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
-                 Full responsive Hotel web site using{" "}
-                <span className="text-teal-500">
-                  React{" "}
-                </span>
+                Full responsive Hotel web site using{" "}
+                <span className="text-teal-500">React </span>
                 and <span className="text-teal-500">Tailwind </span>.{" "}
               </h3>
             </div>
@@ -326,10 +329,8 @@ export default function Home() {
           <div className="py-10">
             <div className="text-center ">
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
-                 Full responsive Petshop web site using{" "}
-                <span className="text-teal-500">
-                  Next.Js{" "}
-                </span>
+                Full responsive Petshop web site using{" "}
+                <span className="text-teal-500">Next.Js </span>
                 and <span className="text-teal-500">Tailwind </span>.{" "}
               </h3>
             </div>
@@ -367,6 +368,64 @@ export default function Home() {
               <div className="basis-1/3 flex-1">
                 <Image
                   src={Web13}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="py-10">
+            <div className="text-center ">
+              <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
+                Full responsive Travel Agency web site using{" "}
+                <span className="text-teal-500">React</span>.{" "}
+                <span
+                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
+                  onClick={() =>
+                    (window.location.href = "https://travelersgrupomr.com.py")
+                  }
+                >
+                  Click Here
+                </span>
+              </h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web14}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>{" "}
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web15}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web16}
+                  alt="image of example"
+                  className="rounded-lg object-cover hover:scale-125 duration-300"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Image
+                  src={Web17}
                   alt="image of example"
                   className="rounded-lg object-cover hover:scale-125 duration-300"
                   width={"100%"}
