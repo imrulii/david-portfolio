@@ -24,6 +24,7 @@ import Web15 from "../public/travel2.png";
 import Web16 from "../public/travel3.png";
 import Web17 from "../public/travel4.png";
 import Perfil from "../public/perfil-pr2.jpg";
+import Programando from "../public/Programando.png";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -52,7 +53,7 @@ export default function Home() {
               </li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
-                href="../public/resume.pdf"
+                href="/resume.pdf"
                 alt=""
                 rel="noopener noreferrer"
                 download="resume.pdf"
@@ -67,10 +68,11 @@ export default function Home() {
               Diaz Jara David Ariel
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Information Systems Analyst and Jr.Full-stack Developer
+              Information Systems Analyst, Jr. Back-end Developer and Jr. QA
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
-              Front-end and Back-end developer who likes to program new systems.
+              Back-end developer and QA analyst who ensures product quality
+              through thorough testing and enjoys programming new features.
               Contact me below and let&apos;s start to code !
             </p>
           </div>
@@ -79,20 +81,17 @@ export default function Home() {
               className="cursor-pointer"
               onClick={() =>
                 (window.location.href =
-                  "https://www.linkedin.com/in/david-ariel-diaz/")
-              }
+                  "https://www.linkedin.com/in/david-ariel-diaz/")}
             />
             <AiFillMail
               className="cursor-pointer"
               onClick={() =>
-                (window.location.href = "mailto:davidarield94@gmail.com")
-              }
+                (window.location.href = "mailto:davidarield96@gmail.com")}
             />
             <BsFillPhoneVibrateFill
               className="cursor-pointer"
               onClick={() =>
-                (window.location.href = "https://wa.me/+5493826441588")
-              }
+                (window.location.href = "https://wa.me/+595992540330")}
             />
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
@@ -103,7 +102,7 @@ export default function Home() {
           <div className="p-8 sm:p-12 shadow-2xl">
             <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
               <Image
-                src={Perfil}
+                src={Programando}
                 alt="profile picture"
                 className="self-center flex-shrink-0 w-80 h-80 border rounded-full md:justify-self-start bg-gray-100 dark:bg-gray-300 dark:border-gray-700"
               />
@@ -116,12 +115,19 @@ export default function Home() {
                   <span className="text-teal-500">C++</span>, since then I have
                   discovered many more, so I&apos;m currently working with{" "}
                   <span className="text-teal-500">
-                    HTML, CSS, JavaScript, React, Nextjs, Bootstrap, Tailwind,
-                    PHP, MySQL, MongoDB, Node.JS, Express
+                    PHP, Laravel, PHPUnit, JavaScript, Cypress
                   </span>{" "}
-                  and <span className="text-teal-500">Access.</span> I am
-                  looking for a job where I can use the knowledge I have
-                  acquired and developed to create solutions.
+                  and <span className="text-teal-500">SQL databases.</span> In
+                  addition to back-end development and QA Testing, I have experience in {" "}
+                  <span className="text-teal-500">quality assurance,</span>{" "}
+                  testing <span className="text-teal-500">new features,</span> {" "}
+                  conducting  <span className="text-teal-500">
+                    API tests,
+                  </span>{" "}
+                  performing {" "}
+                  <span className="text-teal-500">unit testing,</span> and
+                  automating processes with {" "}
+                  <span className="text-teal-500">Cypress.</span> {" "}
                 </p>
               </div>
             </div>
@@ -186,7 +192,7 @@ export default function Home() {
           <div className="text-center pt-8">
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-              In the next section I will show some of my works so be sure to{" "}
+              In the next section I will show some of my personal projects so be sure to{" "}
               <span className="text-teal-500">check it out</span> !
             </p>
           </div>
@@ -195,14 +201,6 @@ export default function Home() {
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
                 Full responsive Travel Agency web site using{" "}
                 <span className="text-teal-500">React</span>.{" "}
-                <span
-                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
-                  onClick={() =>
-                    (window.location.href = "https://travelersgrupomr.com.py")
-                  }
-                >
-                  Click Here
-                </span>
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -298,16 +296,7 @@ export default function Home() {
                 <span className="text-teal-500">
                   HTML, CSS, JavaScript, PHP{" "}
                 </span>
-                and <span className="text-teal-500">MySQL </span>.{" "}
-                <span
-                  className="cursor-pointer text-teal-500 hover:text-teal-700 font-bold italic"
-                  onClick={() =>
-                    (window.location.href =
-                      "https://sscandiwwebtest.000webhostapp.com/index.php")
-                  }
-                >
-                  Click Here
-                </span>
+                and <span className="text-teal-500">MySQL</span>.{" "}
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -338,7 +327,7 @@ export default function Home() {
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
                 Full responsive Hotel web site using{" "}
                 <span className="text-teal-500">React </span>
-                and <span className="text-teal-500">Tailwind </span>.{" "}
+                and <span className="text-teal-500">Tailwind</span>.{" "}
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -389,7 +378,7 @@ export default function Home() {
               <h3 className="text-3xl py-8 max-w-xl mx-auto dark:text-white">
                 Full responsive Petshop web site using{" "}
                 <span className="text-teal-500">Next.Js </span>
-                and <span className="text-teal-500">Tailwind </span>.{" "}
+                and <span className="text-teal-500">Tailwind</span>.{" "}
               </h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -435,7 +424,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
         </section>
       </main>
     </div>
