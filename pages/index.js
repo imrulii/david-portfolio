@@ -53,7 +53,7 @@ export default function Home() {
               </li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-6"
-                href="/resume.pdf"
+                href="/david-portfolio/resume.pdf"
                 alt=""
                 rel="noopener noreferrer"
                 download="resume.pdf"

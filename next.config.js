@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   reactStrictMode: true,
-  static: {
-    public: 'public',
-  },
-}
+  basePath: '/david-portfolio',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
